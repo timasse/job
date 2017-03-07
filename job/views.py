@@ -2,7 +2,6 @@ from django.http import HttpResponse
 from django.shortcuts import render
 from .models import Job
 from django.utils.text import Truncator
-from ipware.ip import get_ip
 
 def index(request):
     jobs = ""
