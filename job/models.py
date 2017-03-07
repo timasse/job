@@ -13,7 +13,7 @@ class Job(models.Model):
 	description = models.TextField('Description', max_length = 250)
 	client_name = models.CharField('Nom du client', max_length = 250)
 	client_address = models.CharField('Adresse du client', max_length = 250)
-	client_phone = models.IntegerField('Numéro de téléphone du client', max_length = 250)
+	client_phone = models.IntegerField('Numero de telephone du client', max_length = 250)
 	#picture = models.ImageField('Photo', upload_to="job_photo")
 	#pdf = models.FileField('PDF', upload_to="job_pdf")
 	date = models.DateTimeField('Date', default=datetime.now)
