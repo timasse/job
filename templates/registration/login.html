@@ -43,7 +43,7 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h2>Login</h2>
-  <form action="/job/" method="post">
+  <form method="post">
     {% csrf_token %}
     {{ form.as_p }}
     <button type="submit">Login</button>
