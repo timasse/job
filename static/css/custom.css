@@ -1,0 +1,13 @@
+/* Custom styles */
+
+#id-spotform {
+
+}
+
+.ctrlHolder input, .ctrlHolder textarea,  .ctrlHolder select{
+	color:black;
+}
+
+#submit-id-submit {
+	color:black;
+}
